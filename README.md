@@ -8,7 +8,7 @@ Wooden belts that move your items and your creatures for you.
 
 ## The pieces
 
-Build them all with the hammer, in the **Misc** tab, next to a workbench.
+Build them all with the hammer, in the **Misc** tab.
 
 | | Piece | What it does |
 |:--|:--|:--|
