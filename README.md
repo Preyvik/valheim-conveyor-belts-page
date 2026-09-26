@@ -2,7 +2,9 @@
 
 Wooden belts that move your items and your creatures for you.
 
-> **[GIF 1 — the whole farm]** Boars fall from their pen onto a belt. The grinder kills them. The loot rides on. The filter sends the leather to one chest, and the link puts the meat into another.
+![The whole farm: boars ride from the pen through the grinder, and the loot is sorted into chests](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/farm.gif)
+
+> Boars fall from their pen onto a belt. The grinder kills them. The loot rides on. The filter sends the leather to one chest, and the link puts the meat into another.
 
 ## The pieces
 
@@ -10,15 +12,15 @@ Build them all with the hammer, in the **Misc** tab, next to a workbench.
 
 | | Piece | What it does |
 |:--|:--|:--|
-| **[GIF 2]** | **Belt** | Carries items and creatures. Comes 1 m, 2 m and 4 m long, as a left or right corner, and as a ramp up or down. |
-| **[GIF 3]** | **Drop floor** | A floor that lets only grown creatures fall through (or only young ones). Put it under a pen. |
-| **[GIF 4]** | **Grinder** | Kills every creature that rides in. The loot rides on. Do not stand in it! |
-| **[GIF 5]** | **Item filter** | Sends one kind of item to the side. Everything else goes straight on. Give it a trophy to sort creatures. |
-| **[GIF 6]** | **Link** | Puts items into a smelter, kiln, windmill, spinning wheel or chest. It can also take items out of a chest. |
-| **[GIF 7]** | **Trash box** | Snaps onto a link. Deletes what the chests and machines cannot take. |
-| **[GIF 7]** | **Trash bin** | Put it at the end of a belt. Items that fall in are gone. |
-| **[GIF 8]** | **Power mill** | A small windmill. Every piece needs its power. |
-| **[GIF 8]** | **Rope-drive post** | Carries power over a gap, with a rope to another post. |
+| ![Belt](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/belt.gif) | **Belt** | Carries items and creatures. Comes 1 m, 2 m and 4 m long, as a left or right corner, and as a ramp up or down. |
+| ![Drop floor](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/drop-floor.gif) | **Drop floor** | A floor that lets only grown creatures fall through (or only young ones). Put it under a pen. |
+| ![Grinder](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/grinder.gif) | **Grinder** | Kills every creature that rides in. The loot rides on. Do not stand in it! |
+| ![Item filter](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/item-filter.gif) | **Item filter** | Sends one kind of item to the side. Everything else goes straight on. Give it a trophy to sort creatures. |
+| ![Link](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/link.gif) | **Link** | Puts items into a smelter, kiln, windmill, spinning wheel or chest. It can also take items out of a chest. |
+| ![Trash box and trash bin](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/trash.gif) | **Trash box** | Snaps onto a link. Deletes what the chests and machines cannot take. |
+| | **Trash bin** | Put it at the end of a belt. Items that fall in are gone. |
+| ![Power mill and rope-drive post](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/power.gif) | **Power mill** | A small windmill. Every piece needs its power. |
+| | **Rope-drive post** | Carries power over a gap, with a rope to another post. |
 
 ## Power
 
