@@ -12,12 +12,12 @@ Wooden belts that move your items and your creatures for you.
 - The item filter holds a list of up to 8 items, families of items (for example all ores) and creatures.
 - The link has three modes: In, Out and Both. You can set how many items it pushes out at a time, and how full it fills a chest or machine.
 - Ramps also come without pillars.
-- A chest or machine aimed at a link's side stands beside the link.
+- You can build a chest or machine next to a link by aiming at the link's side. Before, it stayed red there.
 - The blast furnace drops its bars off its chute, not onto it.
 - Items on a belt wait for each other instead of pushing.
 - Chests and machines snap only to links now, and the mod no longer changes how anything else snaps.
-
-**Old links:** a link built in 0.1.0 now pushes out a full stack at a time, not 1 item per second. To slow it down, set its push size.
+- Less spam in the log.
+- **Old links:** a link built in 0.1.0 now pushes out a full stack at a time, not 1 item per second. To slow it down, set its push size.
 
 ## The pieces
 
