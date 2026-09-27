@@ -10,7 +10,7 @@ Wooden belts that move your items and your creatures for you.
 
 - **Settings windows.** Press E on a link or an item filter to open its settings (see below).
 - The item filter holds a list of up to 8 items, families of items (for example all ores) and creatures.
-- The link has three modes: In, Out and Both. You can set how many items it pushes out at a time, and how full it fills a chest or machine.
+- The link has three modes: In, Out and Both. The modes are only for chests. A machine on a link always only takes items in. You can set how many items it pushes out at a time, and how full it fills a chest or machine.
 - Ramps also come without pillars.
 - You can build a chest or machine next to a link by aiming at the link's side. Before, it stayed red there.
 - The blast furnace drops its bars off its chute, not onto it.
