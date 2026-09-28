@@ -46,7 +46,7 @@ Press E on a link or an item filter to open its settings.
 
 ## Power
 
-Every belt, filter, grinder and link needs power from a **power mill**. Pieces that touch share the power. If there is not enough, they stop. Look at a piece to see why it stopped. Walls and a roof round a mill make it weaker.
+Every belt, filter, grinder and link needs power from a **power mill**. Pieces that touch share the power. If there is not enough, they stop. Look at a piece to see why it stopped.
 
 ## Playing with friends
 
