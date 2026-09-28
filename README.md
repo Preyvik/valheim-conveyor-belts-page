@@ -1,6 +1,6 @@
 # Conveyor Belts
 
-Wooden belts that move your items and your creatures for you.
+Wooden belts that move your items and your creatures for you. Build a small factory and let automation do the hauling.
 
 ![The whole farm: boars ride from the pen through the grinder, and the loot is sorted into chests](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/farm.gif)
 
