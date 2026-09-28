@@ -6,18 +6,13 @@ Wooden belts that move your items and your creatures for you. Build a small fact
 
 > Boars fall from their pen onto a belt. The grinder kills them. The loot rides on. The filter sends the leather to one chest, and the link puts the meat into another.
 
-## What is new in 0.2.0
+## What is new in 0.3.0
 
-- **Settings windows.** Press E on a link or an item filter to open its settings (see below).
-- The item filter holds a list of up to 8 items, families of items (for example all ores) and creatures.
-- The link has three modes: In, Out and Both. The modes are only for chests. A machine on a link always only takes items in. You can set how many items it pushes out at a time, and how full it fills a chest or machine.
-- Ramps also come without pillars.
-- You can build a chest or machine next to a link by aiming at the link's side. Before, it stayed red there.
-- The blast furnace drops its bars off its chute, not onto it.
-- Items on a belt wait for each other instead of pushing.
-- Chests and machines snap only to links now, and the mod no longer changes how anything else snaps.
-- Less spam in the log.
-- **Old links:** a link built in 0.1.0 now pushes out a full stack at a time, not 1 item per second. To slow it down, set its push size.
+- **Long items ride the belts.** Items lie in one tidy line along the belt and turn with it round corners. Logs no longer get stuck at a link or jam the belt.
+- The grinder takes big creatures like a lox too.
+- Auto-pickup no longer takes items off belts. E still picks them up. To turn it back on, see Settings below.
+- Settings windows stay open as far away as the E prompt shows.
+- Every player and the server need 0.3.0.
 
 ## The pieces
 
@@ -61,6 +56,8 @@ Use a mod manager (r2modman, Gale or Thunderstore Mod Manager). It installs **Be
 The costs, the power numbers and the rope length can be changed in the config file. On a server, only an admin can change them.
 
 Each player can also turn off `[Building] SnapToLinks`. Then chests and machines no longer snap to links.
+
+Each player can also turn on `[Pickup] AutoPickupFromBelts`. Then auto-pickup takes items off belts again.
 
 <details>
 <summary>Costs and power</summary>
