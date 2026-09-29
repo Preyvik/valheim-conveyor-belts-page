@@ -10,9 +10,9 @@ Wooden belts that move your items and your creatures for you. Build a small fact
 
 ![Three lines with a level 1, 2 and 3 upgrader: the same wood and stone ride 1.5, 2.5 and 4 times as fast](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/upgrader.gif)
 
-- **Upgraders.** A small box in three levels. Build it next to any powered piece. The 15 nearest pieces work 1.5, 2.5 or 4 times as fast, and a power mill gives more power.
+- **Upgraders.** A small box in three levels. Build it next to any powered piece. The 15 nearest pieces work 1.5, 2.5 or 4 times as fast, and a power mill gives more power. An upgrader takes no power (since 0.4.1).
 - Build Camera CHE no longer picks up items from belts.
-- Every player and the server need 0.4.0.
+- Every player and the server need 0.4.0 or 0.4.1.
 
 ## The pieces
 
@@ -44,7 +44,7 @@ Press E on a link or an item filter to open its settings.
 
 Every belt, filter, grinder and link needs power from a **power mill**. Pieces that touch share the power. If there is not enough, they stop. Look at a piece to see why it stopped.
 
-An **upgrader** makes the pieces near it work faster, power mills too. One piece takes the boost of one upgrader only.
+An **upgrader** takes no power. It makes the pieces near it work faster, power mills too. One piece takes the boost of one upgrader only.
 
 ## Playing with friends
 
@@ -77,9 +77,9 @@ Each player can also turn on `[Pickup] AutoPickupFromBelts`. Then auto-pickup ta
 | Trash bin | Wood 8, Resin 2 | 0 |
 | Power mill | Wood 20, Resin 2, Leather scraps 2 | gives 20 |
 | Rope-drive post | Wood 8, Resin 1 | 0 (rope up to 16 m) |
-| Upgrader level 1 | Wood 4, Resin 2, Bronze 1 | 4 |
-| Upgrader level 2 | Wood 4, Resin 2, Iron 2, Surtling core 1 | 8 |
-| Upgrader level 3 | Wood 4, Resin 2, Black metal 2, Surtling core 2, Crystal 1 | 16 |
+| Upgrader level 1 | Wood 4, Resin 2, Bronze 1 | 0 |
+| Upgrader level 2 | Wood 4, Resin 2, Iron 2, Surtling core 1 | 0 |
+| Upgrader level 3 | Wood 4, Resin 2, Black metal 2, Surtling core 2, Crystal 1 | 0 |
 
 </details>
 
