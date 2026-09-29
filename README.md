@@ -6,13 +6,11 @@ Wooden belts that move your items and your creatures for you. Build a small fact
 
 > Boars fall from their pen onto a belt. The grinder kills them. The loot rides on. The filter sends the leather to one chest, and the link puts the meat into another.
 
-## What is new in 0.3.0
+## What is new in 0.4.0
 
-- **Long items ride the belts.** Items lie in one tidy line along the belt and turn with it round corners. Logs no longer get stuck at a link or jam the belt.
-- The grinder takes big creatures like a lox too.
-- Auto-pickup no longer takes items off belts. E still picks them up. To turn it back on, see Settings below.
-- Settings windows stay open as far away as the E prompt shows.
-- Every player and the server need 0.3.0.
+- **Upgraders.** A small box in three levels. Build it next to any powered piece. The 15 nearest pieces work 1.5, 2.5 or 4 times as fast, and a power mill gives more power.
+- Build Camera CHE no longer picks up items from belts.
+- Every player and the server need 0.4.0.
 
 ## The pieces
 
@@ -29,6 +27,7 @@ Build them all with the hammer, in the **Misc** tab.
 | | **Trash bin** | Put it at the end of a belt. Items that fall in are gone. |
 | ![Power mill and rope-drive post](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/power.gif) | **Power mill** | A small windmill that makes power for the other pieces. |
 | | **Rope-drive post** | Carries power over a gap, with a rope to another post. |
+| | **Upgrader** | Makes the 15 nearest pieces of its power network work faster. Level 1 (bronze) 1.5 times, level 2 (ember) 2.5 times, level 3 (blue) 4 times. |
 
 ## Settings windows
 
@@ -43,6 +42,8 @@ Press E on a link or an item filter to open its settings.
 
 Every belt, filter, grinder and link needs power from a **power mill**. Pieces that touch share the power. If there is not enough, they stop. Look at a piece to see why it stopped.
 
+An **upgrader** makes the pieces near it work faster, power mills too. One piece takes the boost of one upgrader only.
+
 ## Playing with friends
 
 Everyone must have the mod: every player and the server.
@@ -53,7 +54,7 @@ Use a mod manager (r2modman, Gale or Thunderstore Mod Manager). It installs **Be
 
 ## Settings
 
-The costs, the power numbers and the rope length can be changed in the config file. On a server, only an admin can change them.
+The costs, the power numbers, the rope length and the upgraders can be changed in the config file. On a server, only an admin can change them.
 
 Each player can also turn off `[Building] SnapToLinks`. Then chests and machines no longer snap to links.
 
@@ -74,6 +75,9 @@ Each player can also turn on `[Pickup] AutoPickupFromBelts`. Then auto-pickup ta
 | Trash bin | Wood 8, Resin 2 | 0 |
 | Power mill | Wood 20, Resin 2, Leather scraps 2 | gives 20 |
 | Rope-drive post | Wood 8, Resin 1 | 0 (rope up to 16 m) |
+| Upgrader level 1 | Wood 4, Resin 2, Bronze 1 | 4 |
+| Upgrader level 2 | Wood 4, Resin 2, Iron 2, Surtling core 1 | 8 |
+| Upgrader level 3 | Wood 4, Resin 2, Black metal 2, Surtling core 2, Crystal 1 | 16 |
 
 </details>
 
