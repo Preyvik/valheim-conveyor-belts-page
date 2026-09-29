@@ -8,6 +8,8 @@ Wooden belts that move your items and your creatures for you. Build a small fact
 
 ## What is new in 0.4.0
 
+![Three lines with a level 1, 2 and 3 upgrader: the same wood and stone ride 1.5, 2.5 and 4 times as fast](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/upgrader.gif)
+
 - **Upgraders.** A small box in three levels. Build it next to any powered piece. The 15 nearest pieces work 1.5, 2.5 or 4 times as fast, and a power mill gives more power.
 - Build Camera CHE no longer picks up items from belts.
 - Every player and the server need 0.4.0.
@@ -27,7 +29,7 @@ Build them all with the hammer, in the **Misc** tab.
 | | **Trash bin** | Put it at the end of a belt. Items that fall in are gone. |
 | ![Power mill and rope-drive post](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/power.gif) | **Power mill** | A small windmill that makes power for the other pieces. |
 | | **Rope-drive post** | Carries power over a gap, with a rope to another post. |
-| | **Upgrader** | Makes the 15 nearest pieces of its power network work faster. Level 1 (bronze) 1.5 times, level 2 (ember) 2.5 times, level 3 (blue) 4 times. |
+| ![Upgrader](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/upgrader.gif) | **Upgrader** | Makes the 15 nearest pieces of its power network work faster. Level 1 (bronze) 1.5 times, level 2 (ember) 2.5 times, level 3 (blue) 4 times. |
 
 ## Settings windows
 
