@@ -33,7 +33,7 @@ Build them all with the hammer, in the **Misc** tab.
 | ![Link](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/link.gif) | **Link** | Puts items into a smelter, kiln, windmill, spinning wheel or chest. It can also take items out of a chest. Press E to set its mode, how many items it moves, and a filter. |
 | ![Merger](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/merger.gif) | **Merger** | Snaps across a belt. Items of one kind wait under it until the ones behind them join, so they ride on as stacks. |
 | ![Kitchen link](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-link.gif) | **Kitchen link** | A link with a greydwarf chef. Build a cooking station, iron cooking station, oven, fermenter, cauldron, mead ketill or food preparation table beside it: it snaps into place. The chef cooks the raw food that rides in on the belt and keeps the fire fed. Needs a greydwarf trophy. |
-| ![Chest portal](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/chest-portal.gif) | **Chest portal** | Snaps onto a chest or a link. Portals with the same id share items, up to 80 m apart (set 5 to 80 m). On a chest it is set to Take or Give. Press E to set the id, the range, Take or Give, and a list. |
+| ![Chest portal](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/chest-portal.gif) | **Chest portal** | Snaps onto a chest or a link. Portals with the same id share items, up to 80 m apart (set 5 to 80 m). On a chest it is set to Take or Give. On a link it takes only what kitchen links down the belt ask for. Press E to set the id, the range, Take or Give, and a list. |
 | ![Cookbook](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/cookbook.gif) | **Cookbook** | Touch it to a power network. Press E to pick the meals and a stock number for each. Every kitchen link on the network cooks them, also meals that need two stations. |
 | ![Narrow pieces](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/narrow.gif) | **Narrow pieces** | Belts 1 m wide, 0.5 m, 1 m or 2 m long, a corner, a link and a kitchen link. Items over 1 m across do not fit, but a log of wood does, so a narrow kitchen link gets its wood on the belt too. |
 | ![Trash box and trash bin](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/trash.gif) | **Trash box** | Snaps onto a link. Deletes what the chests and machines cannot take. |
@@ -56,7 +56,7 @@ Two portals with the same id are linked. The one set to Give sends raw meat to t
 
 ![The kitchen link's text says it asks for 10 wood through chest portals, the wood flies out of a portal on a link, rides into the kitchen link, and the fire lights](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-wood.gif)
 
-When the fire runs low, the kitchen link asks for wood. A portal on a link up the belt brings it, if the linked chest has wood. This needs a cookbook.
+When the fire runs low, the kitchen link asks for wood. A portal on a link up the belt brings it, if the linked chest has wood. This needs a cookbook. The kitchen link asks for raw food the same way: only what the cookbook is short of, one load at a time. A portal set to Take on a chest pulls everything its list lets through.
 
 ### Meals of two steps
 
