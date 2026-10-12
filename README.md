@@ -53,7 +53,7 @@ Two portals with the same id are linked. The one set to Give sends raw meat to t
 
 ![The kitchen link's text says it asks for 10 wood through chest portals, the wood flies out of a portal on a link, rides into the kitchen link, and the fire lights](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-wood.gif)
 
-When the fire runs low, the kitchen link asks for wood. A portal on a link up the belt brings it from a portal with the same id. This needs a cookbook.
+When the fire runs low, the kitchen link asks for wood. A portal on a link up the belt brings it, if the linked chest has wood. This needs a cookbook.
 
 ### Meals of two steps
 
