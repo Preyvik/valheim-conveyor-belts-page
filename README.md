@@ -59,7 +59,7 @@ When the fire runs low, the kitchen link asks for wood. A portal on a link up th
 
 ![A kitchen link with a cauldron puts raw kale crisps on the belt, a kitchen link with an oven bakes them, and the kale crisps ride into a chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-two-steps.gif)
 
-Kale crisps take two stations. The cauldron makes them, then the oven bakes them. One cookbook card runs both.
+Kale crisps take two stations. Put them one after the other on the belt, in the right order. The cauldron makes the crisps, then the oven bakes them. One cookbook card runs both.
 
 ## Settings windows
 
