@@ -6,16 +6,19 @@ Wooden belts that move your items and your creatures for you. Build a small fact
 
 > Boars fall from their pen onto a belt. The grinder kills them. The loot rides on. The filter sends the leather to one chest, and the link puts the meat into another.
 
-## What is new in 0.6.0
+## What is new in 0.7.0
 
-![Raw meat rides into the kitchen link, the greydwarf chef puts it over the fire and takes it off cooked, and it rides on](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-link.gif)
+![The cauldron's chef makes raw kale crisps, they ride down the belt, and the oven's chef bakes them](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-two-steps.gif)
 
-- **Kitchen link.** A greydwarf chef runs a cooking station, iron cooking station, oven or fermenter beside the belt. It puts raw food on, keeps the fire fed, and sends the food on cooked before it burns.
-- **Chest portal.** A small portal on a chest, link or kitchen link. Portals with the same id share items, up to 80 m apart. Your kitchen takes its meat and wood from your chests.
-- **Cookbook.** Pick up to 8 meals and how many of each to keep, for example 10 cooked boar meat. Every kitchen link on the power network cooks until you have them.
-- **Narrow and short belts.** Belts 1 m wide and 0.5 m long, for a kitchen in a small house.
-- **Belts are rebuilt.** A test base with 2,000 items on 1,500 belts ran at under 2 frames a second in 0.5.0. Now it runs at 17, and with two players on a server neither game slows down.
-- Every player and the server need 0.6.0.
+The kitchen got bigger. "How a kitchen works" below shows it in three GIFs.
+
+- **More kitchen stations.** A kitchen link now also runs a cauldron, a mead ketill and a food preparation table. Build one beside it and it snaps into place. The chef makes their recipes from what rides in on the belt.
+- **Meals of two steps.** Pick kale crisps in the cookbook. A cauldron makes them raw, and an oven down the belt bakes them.
+- **The cookbook counts your chests.** Food that links put into chests counts toward the stock number. So the kitchen stops at your number.
+- **Take or Give.** A chest portal on a chest is set to Take or Give. Its hover text shows which.
+- **Wood for the kitchen.** A log rides on narrow belts too. A kitchen link asks for wood through your chest portals when its fire runs low.
+- **A chest portal on a link** now brings only the wood that kitchen links ask for. It no longer feeds a smelter or a kiln.
+- Every player and the server need 0.7.0.
 
 ## The pieces
 
