@@ -47,13 +47,13 @@ Everything a kitchen link cooks comes on its belt.
 
 ![Raw meat flies from a chest's portal into the portal of a chest on a link, rides past a cookbook into a kitchen link, and the cooked meat rides into the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-portal-meat.gif)
 
-A portal set to Give sends raw meat to a portal set to Take. The link under it puts the meat on the belt. The cooked meat rides into your food chest.
+Two portals with the same id are linked. The one set to Give sends raw meat to the one set to Take. The link under it puts the meat on the belt. The cooked meat rides into your food chest.
 
 ### Wood when the fire runs low
 
 ![The kitchen link's text says it asks for 10 wood through chest portals, the wood flies out of a portal on a link, rides into the kitchen link, and the fire lights](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-wood.gif)
 
-When the fire runs low, the kitchen link asks for wood. A portal on a link up the belt brings it. This needs a cookbook.
+When the fire runs low, the kitchen link asks for wood. A portal on a link up the belt brings it from a portal with the same id. This needs a cookbook.
 
 ### Meals of two steps
 
