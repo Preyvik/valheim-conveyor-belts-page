@@ -41,25 +41,25 @@ Build them all with the hammer, in the **Misc** tab.
 
 ## How a kitchen works
 
-Belts bring the raw food and the wood. Kitchen links cook it. A cookbook on the same power network says what to cook, and how much. A kitchen link has no portal, so it takes raw food and wood only from its belt.
+Everything a kitchen link cooks comes on its belt.
 
 ### Raw meat from a far chest
 
 ![Raw meat flies from a chest's portal into the portal of a chest on a link, rides past a cookbook into a kitchen link, and the cooked meat rides into the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-portal-meat.gif)
 
-> A chest of raw meat has a portal set to Give. A second chest sits on a link set to Out. Its portal is set to Take, with Raw meat on its list, so it pulls the meat in. The link puts the meat on the belt, the chef cooks it, and the cooked meat rides into the food chest. The cookbook's card says how many cooked meat to keep.
+A portal set to Give sends raw meat to a portal set to Take. The link under it puts the meat on the belt. The cooked meat rides into your food chest.
 
 ### Wood when the fire runs low
 
 ![The kitchen link's text says it asks for 10 wood through chest portals, the wood flies out of a portal on a link, rides into the kitchen link, and the fire lights](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-wood.gif)
 
-> When its fire has under 5 wood, the kitchen link asks for enough to have 10. Look at it to see how many. A link up the belt has a portal and no chest. It pulls the wood from a chest of wood whose portal is set to Give, and the wood rides down to the fire. This works only when a cookbook is on the network.
+When the fire runs low, the kitchen link asks for wood. A portal on a link up the belt brings it. This needs a cookbook.
 
 ### Meals of two steps
 
 ![A kitchen link with a cauldron puts raw kale crisps on the belt, a kitchen link with an oven bakes them, and the kale crisps ride into a chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-two-steps.gif)
 
-> Kale crisps need two stations. A cauldron at level 6 makes raw kale crisps from kale. They ride on to a kitchen link with an oven, which bakes them. One cookbook card, Kale crisps, plans both steps. If a station is missing, the card says so, for example "No stone oven on this network".
+Kale crisps take two stations. The cauldron makes them, then the oven bakes them. One cookbook card runs both.
 
 ## Settings windows
 
