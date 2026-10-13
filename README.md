@@ -6,19 +6,18 @@ Wooden belts that move your items and your creatures for you. Build a small fact
 
 > Boars fall from their pen onto a belt. The grinder kills them. The loot rides on. The filter sends the leather to one chest, and the link puts the meat into another.
 
-## What is new in 0.7.0
+## What is new in 0.7.1
 
-![The cauldron's chef makes raw kale crisps, they ride down the belt, and the oven's chef bakes them](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-two-steps.gif)
+![One card makes fish 'n' bread, sped up: anglerfish and barley flour come out of the input chest, the table's chef makes bread dough, it rides round the loop and back, the oven bakes the meal, and it rides into the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.gif)
 
-The kitchen got bigger. "How a kitchen works" below shows it in three GIFs.
+The kitchen now takes only what it needs. "How a kitchen works" below shows a whole one.
 
-- **More kitchen stations.** A kitchen link now also runs a cauldron, a mead ketill and a food preparation table. Build one beside it and it snaps into place. The chef makes their recipes from what rides in on the belt.
-- **Meals of two steps.** Pick kale crisps in the cookbook. A cauldron makes them raw, and an oven down the belt bakes them.
-- **The cookbook counts your chests.** Food that links put into chests counts toward the stock number. So the kitchen stops at your number.
-- **Take or Give.** A chest portal on a chest is set to Take or Give. Its hover text shows which.
-- **Wood for the kitchen.** A log rides on narrow belts too. A kitchen link asks for wood through your chest portals when its fire runs low.
-- **A chest portal on a link** now brings only the wood that kitchen links ask for. It no longer feeds a smelter or a kiln.
-- Every player and the server need 0.7.0.
+- **Ask.** A chest portal on a chest can now be set to Ask. On the chest that feeds your kitchen, it pulls only the raw food and wood the kitchen asks for.
+- **The kitchen asks for its raw food.** A kitchen link asks only for what the cookbook is short of, one load at a time, as it does for wood.
+- **The cookbook names the stations.** Each card shows the stations its meal needs, for example "Cauldron → Stone Oven". A station you lack is orange.
+- **Every item rides narrow belts.** An item too big for a narrow piece is drawn smaller there.
+- A new cookbook card starts at 1, and the mouse wheel scrolls the meal list faster.
+- Every player and the server need 0.7.1.
 
 ## The pieces
 
@@ -33,7 +32,7 @@ Build them all with the hammer, in the **Misc** tab.
 | ![Link](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/link.gif) | **Link** | Puts items into a smelter, kiln, windmill, spinning wheel or chest. It can also take items out of a chest. Press E to set its mode, how many items it moves, and a filter. |
 | ![Merger](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/merger.gif) | **Merger** | Snaps across a belt. Items of one kind wait under it until the ones behind them join, so they ride on as stacks. |
 | ![Kitchen link](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-link.gif) | **Kitchen link** | A link with a greydwarf chef. Build a cooking station, iron cooking station, oven, fermenter, cauldron, mead ketill or food preparation table beside it: it snaps into place. The chef cooks the raw food that rides in on the belt and keeps the fire fed. Needs a greydwarf trophy. |
-| ![Chest portal](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/chest-portal.gif) | **Chest portal** | Snaps onto a chest or a link. Portals with the same id share items, up to 80 m apart (set 5 to 80 m). On a chest it is set to Take or Give. Press E to set the id, the range, Take or Give, and a list. |
+| ![Chest portal](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/chest-portal.gif) | **Chest portal** | Snaps onto a chest or a link. Portals with the same id share items, up to 80 m apart (set 5 to 80 m). On a chest it is set to Give, Take or Ask. Give offers the chest's items to the other portals. Take pulls everything its list lets through. Ask pulls only the raw food and wood that kitchen links down the belt ask for, so use it on a kitchen's input chest. On a link it works as Ask. Press E to set the id, the range, the mode, and a list. |
 | ![Cookbook](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/cookbook.gif) | **Cookbook** | Touch it to a power network. Press E to pick the meals and a stock number for each. Every kitchen link on the network cooks them, also meals that need two stations. |
 | ![Narrow pieces](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/narrow.gif) | **Narrow pieces** | Belts 1 m wide, 0.5 m, 1 m or 2 m long, a corner, a link and a kitchen link. Items over 1 m across do not fit, but a log of wood does, so a narrow kitchen link gets its wood on the belt too. |
 | ![Trash box and trash bin](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/trash.gif) | **Trash box** | Snaps onto a link. Deletes what the chests and machines cannot take. |
@@ -44,19 +43,23 @@ Build them all with the hammer, in the **Misc** tab.
 
 ## How a kitchen works
 
-Everything a kitchen link cooks comes on its belt.
+Everything a kitchen link cooks comes on its belt. Here is a whole kitchen. One cookbook card for fish 'n' bread runs all of it.
 
-### Raw meat from a far chest
+![The example kitchen from above: the Give chests, the input chest with an Ask portal on its Out link, the cookbook, the food preparation table and the stone oven on kitchen links along one belt loop, and the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.png)
 
-![Raw meat flies from a chest's portal into the portal of a chest on a link, rides past a cookbook into a kitchen link, and the cooked meat rides into the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-portal-meat.gif)
+**Build the stations on one belt, in the order of the steps.** The food preparation table makes bread dough, then raw fish 'n' bread. The oven bakes it last.
 
-Two portals with the same id are linked. The one set to Give sends raw meat to the one set to Take. The link under it puts the meat on the belt. The cooked meat rides into your food chest.
+**Ask the cookbook only for the final meal.** Add fish 'n' bread, not bread dough. The kitchen makes the steps between.
+
+**Put an Ask portal on the input chest, and Give portals on your storage chests.** A link set to Out under the input chest puts what comes in on the belt. Only the raw food and wood that the cookbook needs come in.
+
+![One card makes fish 'n' bread, sped up: anglerfish and barley flour come out of the input chest, the table's chef makes bread dough, it rides round the loop and back, the oven bakes the meal, and it rides into the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.gif)
 
 ### Wood when the fire runs low
 
 ![The kitchen link's text says it asks for 10 wood through chest portals, the wood flies out of a portal on a link, rides into the kitchen link, and the fire lights](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-wood.gif)
 
-When the fire runs low, the kitchen link asks for wood. A portal on a link up the belt brings it, if the linked chest has wood. This needs a cookbook.
+When the fire runs low, the kitchen link asks for wood. An Ask portal brings it, if a linked chest has wood: the one on the input chest, or a portal on a link up the belt. This needs a cookbook. The kitchen link asks for its raw food the same way: only what the cookbook is short of, one load at a time. A portal set to Take pulls everything its list lets through, so use Ask for a kitchen.
 
 ### Meals of two steps
 
