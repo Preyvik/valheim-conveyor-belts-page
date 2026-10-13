@@ -8,7 +8,7 @@ Wooden belts that move your items and your creatures for you. Build a small fact
 
 ## What is new in 0.7.1
 
-![One card makes fish 'n' bread, sped up: anglerfish and barley flour come out of the input chest, the table's chef makes bread dough, it rides round the loop and back, the oven bakes the meal, and it rides into the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.gif)
+![One card makes fish 'n' bread, sped up: anglerfish and barley flour come out of the input chest, the table's chef makes bread dough and then raw fish 'n' bread from it, the oven bakes the meal, and it rides into the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.gif)
 
 The kitchen now takes only what it needs. "How a kitchen works" below shows a whole one.
 
@@ -45,15 +45,15 @@ Build them all with the hammer, in the **Misc** tab.
 
 Everything a kitchen link cooks comes on its belt. Here is a whole kitchen. One cookbook card for fish 'n' bread runs all of it.
 
-![The example kitchen from above: the Give chests, the input chest with an Ask portal on its Out link, the cookbook, the food preparation table and the stone oven on kitchen links along one belt loop, and the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.png)
+![The example kitchen from above: the Give chests, the input chest with an Ask portal on its Out link, the cookbook, the food preparation table and the stone oven on kitchen links along one straight belt, and the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.png)
 
-**Build the stations on one belt, in the order of the steps.** The food preparation table makes bread dough, then raw fish 'n' bread. The oven bakes it last.
+**Build the stations on one belt, in the order of the steps.** The food preparation table makes bread dough, keeps it, and makes raw fish 'n' bread from it. The oven bakes it last.
 
 **Ask the cookbook only for the final meal.** Add fish 'n' bread, not bread dough. The kitchen makes the steps between.
 
 **Put an Ask portal on the input chest, and Give portals on your storage chests.** A link set to Out under the input chest puts what comes in on the belt. Only the raw food and wood that the cookbook needs come in.
 
-![One card makes fish 'n' bread, sped up: anglerfish and barley flour come out of the input chest, the table's chef makes bread dough, it rides round the loop and back, the oven bakes the meal, and it rides into the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.gif)
+![One card makes fish 'n' bread, sped up: anglerfish and barley flour come out of the input chest, the table's chef makes bread dough and then raw fish 'n' bread from it, the oven bakes the meal, and it rides into the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.gif)
 
 ### Wood when the fire runs low
 
