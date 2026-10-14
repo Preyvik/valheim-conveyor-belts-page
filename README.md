@@ -43,41 +43,35 @@ Build them all with the hammer, in the **Misc** tab.
 
 ## How a kitchen works
 
-A kitchen is one belt with a kitchen link for each food station. You ask the cookbook for meals. The kitchen pulls in the raw food and wood it needs, and each station passes its step on along the belt. Here is a kitchen with all seven food stations. Four cookbook cards run it.
+A kitchen is one belt with a kitchen link for each food station. You ask the cookbook for meals. The kitchen pulls in the raw food and wood it needs, and each station passes its step on along the belt. Here is a kitchen with six food stations. Three cookbook cards run it.
 
-![The example kitchen from above: the Give chests, the input chest with an Ask portal on its Out link, the cookbook, and on kitchen links along one straight belt the food preparation table, cooking station, iron cooking station, cauldron with its spice rack, stone oven, mead ketill and fermenter, then the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.png)
+![The example kitchen from above: the Give chests, the input chest with an Ask portal on its Out link, the cookbook, and on kitchen links along one straight belt the food preparation table, iron cooking station, cauldron, stone oven, mead ketill and fermenter, then the finished food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.png)
 
-**Build the stations on one straight belt, in this order:** food preparation table, cooking station, iron cooking station, cauldron, stone oven, mead ketill, fermenter. Every meal goes through them in this order, so no belt has to come back.
+**Build the stations on one straight belt, in this order:** food preparation table, iron cooking station, cauldron, stone oven, mead ketill, fermenter. Every meal goes through them in this order, so no belt has to come back.
 
 **Snap each station to its kitchen link.** The cauldron and the mead ketill need a fire under them. The cauldron makes better meals with its upgrades near it, as in vanilla. The fermenter needs a roof.
 
 **Put an Ask portal on the input chest, and Give portals on your storage chests.** A link set to Out under the input chest puts what comes in on the belt. Only the raw food and wood that the kitchen asks for come in. The wood rides on the same belt.
 
-**End the belt at a food chest** on a link set to In. The meals go in. Food that a station down the belt still needs stays on the belt.
+**End the belt at a finished food chest** on a link set to In. The meals go in. Food that a station down the belt still needs stays on the belt.
 
-**Ask the cookbook only for the final meal.** Add deer stew, not cooked deer meat. The kitchen makes the steps between, until the stock number of each meal is ready.
+**Ask the cookbook only for the final meal.** Add serpent stew, not cooked serpent meat. The kitchen makes the steps between, until the stock number of each meal is ready.
 
 **Fish 'n' bread: food preparation table, then stone oven**
 
-![Sped up: barley flour and anglerfish ride into the food preparation table, raw fish 'n' bread rides on past the cooking stations and the cauldron into the stone oven, and the baked meal rides out](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.gif)
+![Sped up: barley flour and anglerfish ride into the food preparation table, raw fish 'n' bread rides on past the iron cooking station and the cauldron into the stone oven, and the baked meal rides out](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-example.gif)
 
 The table makes bread dough, keeps it, and makes raw fish 'n' bread from it. The oven bakes it.
-
-**Deer stew: cooking station, then cauldron**
-
-![Sped up: deer meat rides into the cooking station, the cooked meat rides on to the cauldron with blueberries and a carrot, and the stew rides out](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-deer-stew.gif)
-
-The first cooking station on the belt cooks the deer meat. The cauldron makes the stew from it.
 
 **Serpent stew: iron cooking station, then cauldron**
 
 ![Sped up: serpent meat rides into the iron cooking station, the cooked meat rides on to the cauldron with a mushroom and honey, and the stew rides out](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-serpent-stew.gif)
 
-Only the iron cooking station cooks serpent meat, so the meat rides past the cooking station. Serpent stew needs a cauldron with one upgrade.
+The iron cooking station cooks the serpent meat. The cauldron makes the stew from it. Serpent stew needs a cauldron with one upgrade.
 
 **Minor healing mead: mead ketill, then fermenter**
 
-![Sped up: honey, blueberries, raspberries and a dandelion ride into the mead ketill, the mead base rides into the fermenter, and six meads ride out into the food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-mead.gif)
+![Sped up: honey, blueberries, raspberries and a dandelion ride into the mead ketill, the mead base rides into the fermenter, and six meads ride out into the finished food chest](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-mead.gif)
 
 The mead ketill makes the mead base. The fermenter turns it into six meads. That takes 40 minutes, cut short here.
 
@@ -85,7 +79,7 @@ The mead ketill makes the mead base. The fermenter turns it into six meads. That
 
 ![The kitchen link's text says it asks for 10 wood through chest portals, the wood flies out of a portal on a link, rides into the kitchen link, and the fire lights](https://raw.githubusercontent.com/Preyvik/valheim-conveyor-belts-page/main/media/kitchen-wood.gif)
 
-When the fire runs low, the kitchen link asks for wood. An Ask portal brings it, if a linked chest has wood: the one on the input chest, or a portal on a link up the belt. This needs a cookbook. The kitchen link asks for its raw food the same way: only what the cookbook is short of, one load at a time. A portal set to Take pulls everything its list lets through, so use Ask for a kitchen.
+When the fire runs low, the kitchen link asks for wood. The Ask portal brings it from your Give chests. It brings raw food the same way, only what the cookbook needs. Use Ask, not Take: Take pulls everything.
 
 ## Settings windows
 
